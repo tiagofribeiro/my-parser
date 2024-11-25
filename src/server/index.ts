@@ -1,6 +1,5 @@
 import http from 'http';
 
-
 const server = http.createServer((req: http.IncomingMessage, res: http.ServerResponse) => {
     try {
         res.writeHead(200, { 'Content-Type': 'application/json' });

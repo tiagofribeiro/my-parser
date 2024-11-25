@@ -1,8 +1,9 @@
+import ROUTES from "./global/routes";
+import AppTemplate from "./templates/AppTemplate";
+
 const App: React.FC = () => {
     return (
-        <div>
-            <h1>App.tsx</h1>
-        </div>
+        <AppTemplate routes={ROUTES} />
     );
 }
 
