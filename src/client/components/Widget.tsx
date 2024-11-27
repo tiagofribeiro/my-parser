@@ -1,5 +1,9 @@
 import { Box } from "@mui/material";
 
+type WidgetType = {
+    
+}
+
 const Widget = () => {
     return (
         <Box

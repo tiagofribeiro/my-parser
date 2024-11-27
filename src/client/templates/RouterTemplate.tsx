@@ -6,7 +6,7 @@ type RouterType = {
     routes: RouteType[];
 }
 
-const Router = ({ routes }: RouterType) => {
+const RouterTemplate = ({ routes }: RouterType) => {
     return (
         <BrowserRouter>
             <main>
@@ -24,4 +24,4 @@ const Router = ({ routes }: RouterType) => {
     );
 }
 
-export default Router;
+export default RouterTemplate;

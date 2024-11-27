@@ -4,8 +4,8 @@ import { RouteType } from "./types";
 const ROUTES: RouteType[] = [
     {
         name: 'Home',
-        path: '',
-        element: HomePage()
+        path: '/',
+        element: <HomePage />
     }
 ]
 

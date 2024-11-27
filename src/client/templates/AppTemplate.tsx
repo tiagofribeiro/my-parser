@@ -1,6 +1,6 @@
-import { Container, CssBaseline, ThemeProvider } from "@mui/material";
+import { Container } from "@mui/material";
 
-import Router from "../components/Router";
+import RouterTemplate from "./RouterTemplate";
 import { RouteType } from "../global/types";
 
 type AppTemplateType = {
@@ -10,7 +10,7 @@ type AppTemplateType = {
 const AppTemplate = ({ routes }: AppTemplateType) => {
     return (
         <Container>
-            <Router routes={routes} />
+            <RouterTemplate routes={routes} />
         </Container>
     );
 }

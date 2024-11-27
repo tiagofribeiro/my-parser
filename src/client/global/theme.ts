@@ -7,15 +7,15 @@ const THEME = createTheme({
             paper: '#f0f7ff',
         },
         text: {
-            primary: '#173A5E',
+            primary: '#0b2747',
             secondary: '#46505A',
         },
         action: {
             active: '#001E3C',
         },
         success: {
-            main: '#fff',
-            dark: '#009688',
+            main: '#57a5ff',
+            dark: '#207de8',
         },
     },
 });

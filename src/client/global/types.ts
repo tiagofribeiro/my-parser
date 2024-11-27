@@ -7,7 +7,7 @@ type ChildrenType = {
 type RouteType = {
     name: string;
     path: string;
-    element: ReactNode;
+    element: JSX.Element;
 }
 
 export { ChildrenType, RouteType }
