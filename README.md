@@ -9,7 +9,7 @@ Created using [Nearley 2.20](https://nearley.js.org/docs).
 <br>
 
 ## Scripts
-First, install dependencies using `npm (install)` or `yarn`.  
+First, install dependencies using `npm` or `yarn`.  
 <br>
 - `client:dev` - Runs the frontend using webpack dev server at `localhost:8080`;
 - `client:build` - Builds the frontend using webpack and outputs it to `dist`;
@@ -22,3 +22,15 @@ First, install dependencies using `npm (install)` or `yarn`.
 - `dev` - Runs both front and backend in dev mode;
 - `build` - Builds both front and backend and outputs to `dist`;
 - `start` - Builds both front and backend and runs the server in production mode.
+
+<br>
+
+## Build your grammar
+Create a `.ne` file using a grammar based on [Backus-Naur Form](http://hardmath123.github.io/earley.html).  
+
+
+> Add `@preprocessor typescript` at the top of the grammar to compile to TypeScript.  
+
+<br>
+
+Use the `npx nearleyc <grammar_file>.ne -o <path>/<output_file>.ts` command to generate a Typescript file.

@@ -18,7 +18,7 @@ const HomePage = () => {
     }
 
     const handleSubmit = () => {
-        feedParser()
+        feedParser(text)
     };
 
     return (
